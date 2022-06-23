@@ -58,7 +58,7 @@
                     {{ 'sections.cart.update' | t }}
                   </button>
                 </noscript>
-
+                <a href="/cart/clear" class="cart__checkout-button button clear-cart">Clear Cart</a>
                 <button type="submit" id="checkout" class="cart__checkout-button button" name="checkout"{% if cart == empty %} disabled{% endif %} form="cart">
                   {{ 'sections.cart.checkout' | t }}
                 </button>
